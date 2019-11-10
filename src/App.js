@@ -31,7 +31,7 @@ import React, { Component } from 'react'
         return (
           <form onSubmit={this.loginUser}>
             <h1>An Awesome Form on React</h1>
-            <h2>If ever oh ever a Wiz there was....</h2>
+            <h2>If ever oh ever a Wiz there was, the Wizard of Oz is one because...</h2>
             <label htmlFor="email">
               <span>Email:</span>
               <input onChange={this.inputChange} value={email} id="email" name="email" type="email" />
